@@ -21,6 +21,8 @@
 		71C9F36518044F3200891678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C9F34718044F3200891678 /* UIKit.framework */; };
 		71C9F36D18044F3200891678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C9F36B18044F3200891678 /* InfoPlist.strings */; };
 		71C9F36F18044F3200891678 /* CollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F36E18044F3200891678 /* CollectionViewTestTests.m */; };
+		71C9F37A1804502800891678 /* CVTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F3791804502800891678 /* CVTCell.m */; };
+		71C9F37C180450E500891678 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C9F37B180450E500891678 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		71C9F36A18044F3200891678 /* CollectionViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		71C9F36C18044F3200891678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71C9F36E18044F3200891678 /* CollectionViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewTestTests.m; sourceTree = "<group>"; };
+		71C9F3781804502800891678 /* CVTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTCell.h; sourceTree = "<group>"; };
+		71C9F3791804502800891678 /* CVTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTCell.m; sourceTree = "<group>"; };
+		71C9F37B180450E500891678 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C9F37C180450E500891678 /* QuartzCore.framework in Frameworks */,
 				71C9F34618044F3200891678 /* CoreGraphics.framework in Frameworks */,
 				71C9F34818044F3200891678 /* UIKit.framework in Frameworks */,
 				71C9F34418044F3200891678 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		71C9F34218044F3200891678 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71C9F37B180450E500891678 /* QuartzCore.framework */,
 				71C9F34318044F3200891678 /* Foundation.framework */,
 				71C9F34518044F3200891678 /* CoreGraphics.framework */,
 				71C9F34718044F3200891678 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				71C9F35518044F3200891678 /* Main.storyboard */,
 				71C9F35818044F3200891678 /* CVTViewController.h */,
 				71C9F35918044F3200891678 /* CVTViewController.m */,
+				71C9F3781804502800891678 /* CVTCell.h */,
+				71C9F3791804502800891678 /* CVTCell.m */,
 				71C9F35B18044F3200891678 /* Images.xcassets */,
 				71C9F34A18044F3200891678 /* Supporting Files */,
 			);
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C9F35A18044F3200891678 /* CVTViewController.m in Sources */,
+				71C9F37A1804502800891678 /* CVTCell.m in Sources */,
 				71C9F35418044F3200891678 /* CVTAppDelegate.m in Sources */,
 				71C9F35018044F3200891678 /* main.m in Sources */,
 			);

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CVTViewController : UIViewController
+@interface CVTViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+
+@property (nonatomic, strong) IBOutlet UICollectionView* collectionView;
 
 @end
